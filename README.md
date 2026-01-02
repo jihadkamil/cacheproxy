@@ -98,7 +98,11 @@ curl "http://localhost:8000/servehttp?url=http://httpbin.org/get"
 ### Start the proxy
 
 ```bash
-go run main.go
+go run ./cmd/proxy/main.go
+
+
+
+
 ```
 
 The proxy listens on port `8000`.
@@ -143,3 +147,5 @@ If you want to extend this project:
 * Add structured logging and metrics
 
 ---
+
+
